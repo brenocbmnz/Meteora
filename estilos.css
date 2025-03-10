@@ -1,7 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
 .text-menor {
     font-size: 13px;
 }
 
 .divs-facilidades {
     width: 325px;
+}
+
+a.btn.btn-custom,
+button.btn-custom {
+    background-color: #9353FF;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #7a3ccf !important;
+    color: white !important;
+    border-color: #7a3ccf !important;
+}
+
+.texto-verde {
+    color: #DAFF01;
 }
